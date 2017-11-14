@@ -1,0 +1,11 @@
+{
+  "name": "graphql-pokeapi",
+  "version": "1.0.0",
+  "description": "GraphQL wrapper around pokeapi.co",
+  "main": "index.js",
+  "author": "Blake Guilloud <blake.guilloud@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^0.11.7"
+  }
+}

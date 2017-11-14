@@ -1,0 +1,14 @@
+service: graphql-pokeapi
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          method: ANY
+          path: '{proxy+}'
+          cors: true
